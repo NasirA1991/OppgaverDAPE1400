@@ -21,7 +21,7 @@ public class LogiskBool {
         boolean myndig = true;
         boolean jomfru = false;
 
-        String ut = "Navn: "+navn+"\n"+"Adresse: "+adresse+"\n"+"Alder: "+alder+"\n"+"Myndig: "+myndig+"\n"+"Virgin: "+jomfru+"\n"+"Postnr: "+postnr+"\n"+"Postadresse: "+postadresse+"\n"+"Summen av divisjonen er :"+divisjon;
+        String ut = "Navn: "+navn+"\n"+"Adresse: "+adresse+"\n"+"Alder: "+alder+"\n"+"Myndig: "+myndig+"\n"+"Virgin: "+jomfru+"\n"+"Postnr: "+postnr+"\n"+"Postadresse: "+postadresse+"\n"+tall1+" delt på "+tall2+" er lik "+divisjon;
         showMessageDialog(null,ut);
 
     }
