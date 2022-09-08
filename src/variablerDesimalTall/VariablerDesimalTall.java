@@ -10,7 +10,7 @@ public class VariablerDesimalTall {
         double tall1 = Double.parseDouble(innStreng1);
         double tall2 = Double.parseDouble(innStreng2);
         double divisjon = tall1/tall2;
-        //System.out.println(divisjon);
-        showMessageDialog(null, "Divisjonen ble "+divisjon);
+        System.out.println(divisjon);
+        //showMessageDialog(null, "Divisjonen ble "+divisjon);
     }
 }
