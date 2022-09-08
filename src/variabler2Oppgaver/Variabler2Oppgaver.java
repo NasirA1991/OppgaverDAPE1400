@@ -14,9 +14,8 @@ public class Variabler2Oppgaver {
         String ut = "Navn: "+innFornavn+" "+innEtternavn+"\n"+"Adresse: "+innAdresse+"\n"+"Postnummer: "+innPostnr+"\n"+"Poststed: "+innPoststed+"\n"+"Alder: "+innAlder+" år";
 
         System.out.println(ut);
-        showMessageDialog(null,ut);
+        //showMessageDialog(null,ut);
 
-        haha dette var morsomt
     }
 }
 
