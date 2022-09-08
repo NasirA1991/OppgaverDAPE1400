@@ -15,6 +15,8 @@ public class Variabler2Oppgaver {
 
         System.out.println(ut);
         showMessageDialog(null,ut);
+
+        haha dette var morsomt
     }
 }
 
