@@ -4,7 +4,7 @@ import static javax.swing.JOptionPane.showInputDialog;
 import static javax.swing.JOptionPane.showMessageDialog;
 
 public class OppGaverAritmetikk11 {
-    public static void main (String []args) {
+    public static void main (String [] args) {
         String innData = showInputDialog("Skriv inn et tall mellom 0 og 1000.");
 
         int tall1 = Integer.parseInt(innData);
