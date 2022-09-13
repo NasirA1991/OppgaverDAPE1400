@@ -11,8 +11,6 @@ public class OppgaverAritmetikk10 {
 
         int resultat = (2022-alder);
 
-        System.out.println(resultat);
-
         if (resultat <= 2004) {
             showMessageDialog(null,"Du kan ta førerkortet for bil da du er gammel nok.");
         }
