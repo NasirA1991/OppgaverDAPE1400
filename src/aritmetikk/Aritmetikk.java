@@ -10,5 +10,10 @@ public class Aritmetikk {
         resultat = (double) tall1 / (double) tall2;
 
         System.out.println(resultat);
+
+        resultat = tall1 + tall2;
+        resultat = tall1 - tall2;
+        resultat = tall1 * tall2;
+        resultat = tall1 / tall2;
     }
 }
