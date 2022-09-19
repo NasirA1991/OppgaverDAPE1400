@@ -10,7 +10,7 @@ class Bøker{
     public String ISBN;
 
     public void skrivUt(){
-        String resultat = "Tittel: "+tittel+" Pris: "+pris+" Forfatter: "+forfatter+" ISBN: "+ISBN;
+        String resultat = "Tittel: "+tittel+"\n"+"Pris: "+pris+"\n"+"Forfatter: "+forfatter+"\n"+"ISBN: "+ISBN;
         showMessageDialog(null, resultat);
     }
 }
@@ -18,10 +18,10 @@ class Bøker{
 public class OppgaveObjekt1_1 {
     public static void main(String [] args){
         Bøker nyBok = new Bøker();
-        nyBok.tittel = showInputDialog("Tittel?");
-        nyBok.pris = showInputDialog("Pris?");
-        nyBok.forfatter = showInputDialog("Forfatter?");
-        nyBok.ISBN = showInputDialog("ISBN?");
+        nyBok.tittel = showInputDialog("Tittel til boken");
+        nyBok.pris = showInputDialog("Pris til boken");
+        nyBok.forfatter = showInputDialog("Skriv inn forfatter");
+        nyBok.ISBN = showInputDialog("ISBN-nummer");
 
         nyBok.skrivUt();
     }
