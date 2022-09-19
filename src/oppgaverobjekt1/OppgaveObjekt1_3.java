@@ -31,10 +31,11 @@ public class OppgaveObjekt1_3 {
         p1.utSkriftAlt();
 
         /*Person p2 = new Person();
-        p2.navn = "Shoaib Amin";
-        p2.adresse = "Nordkappgata 13";
-        p2.telefonnr = "40469602";
-        p2.fødselsår = 1992;
+        p2.navn = showInputDialog("Hva heter du?");
+        p2.adresse = showInputDialog("Hva er adressen din?");
+        p2.telefonnr = showInputDialog("Hva er telefonnummeret ditt?");
+        String innFår2 = showInputDialog("Hva er fødselsnummeret ditt?");
+        p2.fødselsår = Integer.parseInt(innFår2);
         p2.regneUtAlder();
         p2.utSkriftAlt();*/
 
