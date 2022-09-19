@@ -18,7 +18,7 @@ class Bøker{
 public class OppgaveObjekt1_1 {
     public static void main(String [] args){
         Bøker nyBok = new Bøker();
-        nyBok.tittel = showInputDialog("Tittel til bokens");
+        nyBok.tittel = showInputDialog("Tittel til boken");
         nyBok.pris = showInputDialog("Pris til boken");
         nyBok.forfatter = showInputDialog("Skriv inn forfatter");
         nyBok.ISBN = showInputDialog("ISBN-nummer");
