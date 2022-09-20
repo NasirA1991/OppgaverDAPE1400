@@ -4,8 +4,8 @@ import static javax.swing.JOptionPane.*;
 
 class Person {
 
-    String navn, adresse, telefonnr;
-    int fødselsår, alder;
+    public String navn, adresse, telefonnr;
+    public int fødselsår, alder;
 
 
     public void regneUtAlder() {
@@ -25,7 +25,7 @@ public class OppgaveObjekt1_3 {
         p1.navn = showInputDialog("Hva heter du?");
         p1.adresse = showInputDialog("Hva er adressen din?");
         p1.telefonnr = showInputDialog("Hva er telefonnummeret ditt?");
-        String innFÅr = showInputDialog("Skriv inn fødselsnummeret ditt");
+        String innFÅr = showInputDialog("Skriv inn fødselsåret ditt");
         p1.fødselsår = Integer.parseInt(innFÅr);
         p1.regneUtAlder();
         p1.utSkriftAlt();
