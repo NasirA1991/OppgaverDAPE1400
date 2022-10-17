@@ -9,9 +9,9 @@ public class Bank {
         String kontonr = showInputDialog("Hva er kontonr ditt?");
         double saldo = Double.parseDouble(showInputDialog("Hva er saldoen din"));
         Konto nyKonto1 = new Konto(kontoFornavn,kontoEtternavn,kontonr,saldo);
-        nyKonto1.kontoUtSkrift();
         nyKonto1.utPenger();
         nyKonto1.innPenger();
+        nyKonto1.kontoUtSkrift();
 
     }
 }
