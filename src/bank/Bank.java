@@ -1,8 +1,14 @@
 package bank;
 
+import static javax.swing.JOptionPane.showInputDialog;
+
 public class Bank {
     public static void main (String[] args) {
-        Konto nyKonto1 = new Konto ("Nasir", "Amin", "0557 94885 32", 10000);
+        String kontoFornavn = showInputDialog("Hva er fornavnet ditt?");
+        String kontoEtternavn = showInputDialog("Hva er etternavnet ditt?");
+        String kontonr = showInputDialog("Hva er kontonr ditt?");
+        double saldo = Double.parseDouble(showInputDialog("Hva er saldoen din"));
+        Konto nyKonto1 = new Konto(kontoFornavn,kontoEtternavn,kontonr,saldo);
         nyKonto1.kontoUtSkrift();
         nyKonto1.utPenger();
         nyKonto1.innPenger();

@@ -73,7 +73,7 @@ public class Konto {
             String ut1 = "Din nye saldo er "+String.format("%.2f",saldo);
             showMessageDialog(null, ut1);
         }
-        if (saldo <= utPenger) {
+        else {
             String ut2 = "Beklager, du er en fattiglus.";
             showMessageDialog(null, ut2);
         }
