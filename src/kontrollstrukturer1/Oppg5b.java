@@ -28,6 +28,9 @@ public class Oppg5b {
            case "november":
                showMessageDialog(null, "Det er høst.");
                break;
+           default:
+               showMessageDialog(null, "Ikke gyldig måned.");
+               break;
        }
 
     }
